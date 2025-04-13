@@ -22,15 +22,15 @@ app.use(cookieParser())
 app.use(cors(
    {
       origin:"http://localhost:4000",
-      credentials:true
+      credentials:true  
    }
 ))
  setSocket(server)
 
 
-app.use("/",userRoutes)
+app.use("/",userRoutes) 
 app.use("/chats",chatsRoutes)
 app.use("/comments",commentsRoutes)
 server.listen(PORT,()=>console.log("Server Started"))
 
-
+ 
