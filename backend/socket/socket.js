@@ -4,7 +4,7 @@ const {Server} =require("socket.io")
   const setSocket=(serevr)=>{
      io=new Server(serevr,{
         cors:{
-           origin:"http://localhost:4000",
+           origin:"https://postclub-1.onrender.com",
            credentials:true
            
           }
