@@ -21,7 +21,7 @@ app.use(exprees.text())
 app.use(cookieParser())
 app.use(cors(
    {
-      origin:"http://localhost:4000",
+      origin:"https://spectacular-khapse-50e6af.netlify.app/",
       credentials:true  
    }
 ))
