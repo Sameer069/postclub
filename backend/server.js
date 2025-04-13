@@ -21,7 +21,7 @@ app.use(exprees.text())
 app.use(cookieParser())
 app.use(cors(
    {
-      origin:"https://spectacular-khapse-50e6af.netlify.app/",
+      origin:"https://postclub-1.onrender.com",
       credentials:true  
    }
 ))
