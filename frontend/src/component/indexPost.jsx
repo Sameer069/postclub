@@ -37,7 +37,7 @@ const IndexPost = () => {
             Authorization: `Bearer ${token}`,
           },
         });
-         console.log(response)
+        
         if (response.status === 200) {
          
          const like=response.data.map(post=>post.like.toString()===user._id.toString())
