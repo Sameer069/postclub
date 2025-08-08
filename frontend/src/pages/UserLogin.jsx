@@ -98,7 +98,7 @@ const  UserLogin=()=> {
                         <span className={hide?"inline text-red-600":"hidden"}>{userPasswordError}</span>
                         </div>
                         <div className='text-end my-3'>
-                        <span className='font-[Poppins]'>Forget Password?</span>
+                        <span className='font-[Poppins] text-[#1565C0]'>Forget Password?</span>
                         </div>
                         <div>
                         <Button variant='contained' type='submit' className='w-full'>Login</Button>
