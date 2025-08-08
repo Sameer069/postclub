@@ -104,7 +104,7 @@ const  UserLogin=()=> {
                         <Button variant='contained' type='submit' className='w-full'>Login</Button>
                         </div>
                         <div className='ps-[19px] mt-5 font-[Poppins]'>
-                           <span>Don't have an account?<Link to="/signup" className=''>Signup</Link></span>
+                           <span>Don't have an account?<Link to="/signup" className='text-[#1565C0]'>Signup</Link></span>
                         </div>
                         <div className='mt-2'>
                         <p className=' text-center text-[14px]'>
