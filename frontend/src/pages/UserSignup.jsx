@@ -112,7 +112,7 @@ const UserSignUp=()=>{
 
                     <div className='text-center'>
                     <div className='ps-[19px] mt-5 font-[Poppins]'>
-                    <span>Alredy have an account?<Link to="/"  className=''>Signin</Link></span>
+                    <span>Alredy have an account?<Link to="/"  className='text-[#1565C0]'>Signin</Link></span>
                  </div>
                     </div>
 
